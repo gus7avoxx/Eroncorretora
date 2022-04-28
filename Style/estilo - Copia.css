@@ -1,0 +1,545 @@
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Poiret+One&display=swap');
+
+*{margin: 0; padding: 0;}
+
+body{ 
+	margin:0;
+	padding:0;
+ 	background-color: white;
+
+}
+
+.form{
+	width: 400px;
+	margin: auto;
+	padding-top: 40px;
+}
+
+.card56{
+	box-shadow: 0px 0px 0px #566a80;
+	width: 80%;
+	height: 40px;
+	background-color: white;
+	padding: 10px;
+	border-radius:30px;
+	margin-top: 70px; 
+	
+}
+
+.card-top{
+	text-align: center;
+
+}
+
+.card-group{
+	margin-bottom: 10px;
+
+}
+
+.card-group > label{
+	width: 100%;
+	color: #566a80;
+	display: block;
+	padding-top: 20px;
+}
+
+.card-group > input{
+	border-radius: 5px;
+	outline: 0;
+	width: 100%;
+	height: 40px;
+	padding: 10px;
+	box-sizing: border-box;
+	border: 3px solid #777;
+	
+}
+
+.card-group > button{
+	background-color: #ca6243;
+	width: 100%;
+	border-radius: 30px;
+	padding: 15px;
+	color: white;
+	border: 0px;
+	
+}
+
+.imglogin{
+	border-radius: 50px; 
+	width: 100px;
+	box-shadow: 1px 1px 5px #ccc;
+}
+
+.title{
+	text-align: center;
+	color: #ca6243;
+}
+
+.banner{
+	margin-top: 40px;
+}
+
+.card-group,button{
+  	color: #566a80;
+  	padding: 16px 32px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: 19px;
+  	margin: 4px 2px;
+  	transition-duration: 0.4s;
+  	cursor: pointer;
+  	border: 4px; 
+  	font-family: Josefin Sans, avenir, sans-serif;
+  	outline: none;
+}
+
+.calculadora-group{
+	width: 1000px;
+	border: 1px solid black;
+	border-color: #566a80;
+	border-radius:10px; 
+ 	background-color: #;
+ 	justify-content: center;
+	padding: 30px;
+	outline: none;
+}
+
+.tabela-info{
+	width: 450px;
+	padding: 10px;
+	margin-bottom: 30px;
+
+}
+.text-info,p{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.2rem;
+	margin-bottom: 30px;
+}
+
+.img-illustracao1{
+	width:500px;
+	padding: 5px;
+	margin-bottom: 30px;
+	
+}
+
+ul{
+	padding: 0;
+	margin: 0 0 0 250px;
+	list-style: none;
+}
+
+li{
+	float: left;
+
+}
+
+.logo img{
+	position: absolute;
+	margin-top: 10px;
+	margin-left: 8px;
+}
+
+nav a{
+	width: 120px;
+	display: block;
+	padding: 40px 30px;
+	text-decoration: none;
+	font-family: 'Open Sans', sans-serif;
+	color: gray;
+	text-align: right;
+}
+
+nav a:hover{
+	background-color: #FFCCBC;
+	transition: 0.5s;
+	text-transform: uppercase;
+}
+
+header, img{
+	
+}
+
+article{
+	width: 1200px;
+	background-color: white;
+	box-sizing: border-box;
+	margin: 40px 140px;
+	padding: 30px;
+	text-align: left;
+}
+
+section {
+
+}
+
+nav{
+	width: 100%
+	background:white;
+	overflow: auto;
+	}
+
+a{
+	font: 1.2rem 'Avenir', sans-serif;
+	color:white;
+	text-decoration: none;
+}
+
+.imovel, a{
+	color: black;
+	font-family: 'Poiret One', cursive;
+}
+
+
+/*card-jhon*/
+
+p{
+	font-family: arial;
+
+}
+
+#pag-serviços{
+	background-color: #d7d8dc;
+	padding: 60px;
+}
+
+.img-serviços{
+	width: 40px;
+	height:40px;
+	margin-bottom: 15px;
+	margin-top: 15px;
+}
+
+
+#container{
+	display: flex;
+}
+#container-1{
+	display: flex;
+	padding: 30px;
+	margin: auto;
+	justify-content: center;
+
+
+}
+#container-2{
+	display: flex;
+	padding: 30px;
+	justify-content: center;
+
+}
+
+.card{
+	background-color: white;
+	padding: 23px;
+	margin: 0 auto;
+	border-radius: 10px;
+	transition: 0.8;
+	margin-bottom:70px;
+	margin-top: 70px;
+	box-sizing: border-box;
+	width: 290px;
+	height:220px;
+	text-align: left;
+}
+
+.card-body{
+	padding: 10px;
+	
+
+
+}
+
+.card-title{
+	font-family: 'Poiret One', cursive;
+
+}
+
+.card:hover{
+	box-shadow:0px 8px 10px #666; 
+}
+
+#card2{
+	
+	border-width: 10px;
+	background-color: #EAD8BB;
+	padding: 0px;
+	margin: 20px;
+	transition: 0.8;
+	box-sizing: border-box;
+	width: 250px;
+	height:400px;
+	text-align: left;
+}
+
+#card3{
+	background-color: #d7d8dc;
+	padding: 0px;
+	margin: 20px;
+	transition: 0.8;
+	box-sizing: border-box;
+	width: 250px;
+	height:400px;
+	text-align: left;
+}
+
+h1{
+	font-family: 'Poiret One', cursive;
+	color: #566a80;
+	font-size: 2rem;
+}
+
+
+h3{
+	font-family: Josefin Sans, avenir, sans-serif;
+	font-size: 1rem;
+	color:  black ;
+	text-align: left;
+	margin-bottom: 20px;
+
+}
+
+h2{
+	font-family: 'Poiret One', cursive;
+	color: #566a80;
+	font-size: 2rem;
+
+}
+
+h4{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1rem;
+
+}
+
+p{
+	font-family: Josefin Sans, avenir, sans-serif;
+	color: #566a80;
+
+
+
+}
+
+#serviços p{
+	font-family: Josefin Sans, avenir, sans-serif;
+	font-size: 0.9rem;
+	color: gray;
+	text-align: left;
+	padding: 1px;
+	margin-top:20px;
+	margin-bottom:20px;
+	width: 200px;
+	line-height: 20px;
+	text-align: justify;
+}
+
+.img-simbol{
+	width: 20px;
+	height: 20px;
+}
+.simbol{
+	background-color: #EAD8BB;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*pagina dos imóveis*/
+
+
+.img-fotos1{
+	width: 500px;
+}
+.img-fotos2{
+	width:830px;
+	height:524px;
+}
+
+.button{
+border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+
+#container-4{
+	display: flex;
+}
+
+.img-uteis{
+	width: 25px;
+	height: 25px;
+}
+#info{
+	margin: 50px;
+	margin-right:60px;
+	box-sizing: border-box;
+}
+.img-instalacoes{
+	width:28px;
+	padding: 10px;
+}	
+.Instalações{
+	display: flex;
+}
+
+.a-anuncie{
+	font-family: Calibri Light,Calibry, sans-serif;
+	font-size: 25px;
+	text-decoration: none;
+	color: #ca6243;
+	padding: 30px;
+	padding-top: 20px;
+}
+
+h2{
+	font-family: Calibri Light,Calibry, sans-serif;
+	font-size: 2rem; /*dobro do brauser/tamanho padrão que vem no documento*/
+	color: #566a80;
+	text-align: left;
+	margin-bottom: 15px;
+}
+
+section{
+	padding: 20px;
+	text-align: ;
+}
+
+form{
+	width: 800px;
+	margin: 0 auto;
+}
+
+input{
+	width:100%;
+	height: 30px;
+	margin-bottom: 10px;
+	padding-left: 5px;
+	box-sizing: border-box;
+	border: 1px solid #c4c4c4;
+	font-family: Calibri Light,Calibry, sans-serif;
+}
+
+select{
+	width:100%;
+	height: 30px;
+	margin-bottom: 10px;
+	padding-left: 5px;
+	box-sizing: border-box;
+	border: 1px solid #c4c4c4;
+	font-family: Calibri Light,Calibry, sans-serif;
+}
+
+textarea{
+	width:100%; //mudar para 50% para ocupar metade
+	height: 40px;
+	margin-bottom: 10px;
+	padding-left: 5px;
+	box-sizing: border-box;
+	border: 1px solid #c4c4c4;
+	font-family: Calibri Light,Calibry, sans-serif;
+}
+
+
+
+label{
+	font-family: Calibri Light,Calibry, sans-serif;
+	font-size: 20px;
+	color: #757575;
+	margin-bottom: 10px;
+}
+
+fieldset{
+	border: none;
+	margin-bottom: 10px;
+}
+
+ input[type="radio"],input[type="checkbox"]{
+ 	width: 20px;
+ 	height: 15px;
+ 	margin-left: 50px;
+ }
+
+  input[type="submit"]{
+ 	margin: 20px;
+ 	background-color: #ca6243;
+ 	color: #fff;
+ 	border: 0;
+ 	border-radius: 5px;
+ 	width: 120px;
+ 	height: 30px;
+ 	font-size: 20px;
+ 	margin: auto;
+ }
+
+
+  #botoesform{
+  	align-items: center;
+ 	display: flex;
+ 	width: 100%;
+
+ }
+
+#endereço_numero{
+	display: flex;
+}
+
+#bairro_cidade_cep{
+	display: flex;
+}
+
+div #endereço{
+	margin-right: 20px;
+}
+
+/*fotter*/
+
+footer{
+	background-color: #566a80;
+	padding:20px;
+
+}
+
+footer p,a{
+	font: 1.2rem 'Avenir', sans-serif;
+	color:#E91E63;
+	text-decoration: none;
+	margin-top: 10px;
+	text-align: center;
+	color: #fff;
+}
+
+footer p{
+		font-size: 1.5rem;
+}
+
