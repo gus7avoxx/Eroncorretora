@@ -1,0 +1,324 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+
+
+*{
+	  margin: 0;
+}
+article{
+	width: 1200px;
+	background-color: white;
+	box-sizing: border-box;
+	margin: 40px 200px;
+	padding: 30px;
+	text-align: left;
+	justify-content: center;
+}
+
+
+h1{
+	font-family: 'Poiret One', cursive;
+	color: #566a80;
+	font-size: 2rem;
+}
+
+h2{
+	font-family: 'Poiret One', cursive;
+	color: #566a80;
+	font-size: 2rem;
+
+}
+
+h3{
+
+}
+
+h4{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1rem;
+
+}
+
+p{
+	font-family: Josefin Sans, avenir, sans-serif;
+	color: #566a80;
+}
+
+td{
+		font-family: 'Montserrat', sans-serif;
+}
+
+#serviços{
+	background-color: #d7d8dc;
+	padding: 60px;
+}
+
+.img-serviços{
+	width: 40px;
+	height:40px;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+
+
+#container{
+	display: flex;
+}
+#container-1{
+	display: flex;
+}
+#container-2{
+	display: flex;
+}
+
+.card{
+	background-color: white;
+	padding: 23px;
+	margin: 0 auto;
+	border-radius: 10px;
+	transition: 0.8;
+	margin-bottom:70px;
+	margin-top: 70px;
+	box-sizing: border-box;
+	width: 290px;
+	height:220px;
+	text-align: left;
+}
+
+.card:hover{
+	box-shadow:0px 8px 10px #666; 
+}
+
+#card2{
+	border-width: 10px;
+	background-color:
+	border-color: gray
+	padding: 0px;
+	margin: 20px;
+	transition: 0.8;
+	box-sizing: border-box;
+	width: 250px;
+	height:400px;
+	text-align: left;
+}
+
+#card3{
+	background-color:#;
+	border-color: red;
+	border:3px;
+	padding: 0px;
+	margin: 20px;
+	transition: 0.8;
+	box-sizing: border-box;
+	width: 250px;
+	height:400px;
+	text-align: left;
+}
+
+.card-body{
+	padding: 2px;
+}
+
+.card-title{
+	font-size: 1rem;
+	padding: 10px;
+}
+
+.card-text,h4{
+	font-size: 1rem;
+}
+
+h3{
+	font-family: Josefin Sans, avenir, sans-serif;
+	font-size: 1rem;
+	color:  black ;
+	text-align: left;
+	margin-bottom: 20px;
+}
+
+
+#serviços p{
+	font-family: Josefin Sans, avenir, sans-serif;
+	font-size: 0.9rem;
+	color: gray;
+	text-align: left;
+	padding: 1px;
+	margin-top:20px;
+	margin-bottom:20px;
+	width: 200px;
+	line-height: 20px;
+	text-align: justify;
+}
+
+.img-simbol{
+	width: 20px;
+	height: 20px;
+}
+.simbol{
+	background-color: #EAD8BB;
+}
+
+
+/*pagina dos imóveis*/
+
+
+.img-fotos1{
+	width: 500px;
+	margin-left: 50px;
+}
+.img-fotos2{
+	width:830px;
+	height:524px;
+}
+
+.card-group1,button{
+  	color: #566a80;
+  	padding: 16px 32px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: 19px;
+  	margin: 4px 2px;
+  	transition-duration: 0.4s;
+  	cursor: pointer;
+  	border: 4px; 
+  	font-family: Josefin Sans, avenir, sans-serif;
+  	margin-left: 50px;
+}
+
+
+#sobre{
+	padding: 
+}
+.text-sobre,p{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1rem;
+}
+
+.tabela1{
+	border: 0px solid black;
+}
+#container-4{
+	display: flex;
+}
+
+.img-uteis{
+	width: 25px;
+	height: 25px;
+}
+
+#info{
+	margin: 50px;
+	margin-right:60px;
+	box-sizing: border-box;
+}
+
+.img-instalacoes{
+	width:28px;
+	padding: 10px;
+}	
+
+.Instalações{
+	display: flex;
+}
+
+#conteiner1{
+	justify-content: center;
+}
+
+.calculadora-group{
+	width: 1000px;
+	border: 1px solid black;
+	border-color: #566a80;
+	border-radius:10px; 
+ 	background-color: #;
+ 	justify-content: center;
+	padding: 30px;
+}
+
+.img-illustracao{
+	width:300px;
+	padding: 5px;
+	margin-bottom: 30px;
+	justify-content: center;
+}
+.img-illustracao1{
+	width:500px;
+	padding: 5px;
+	margin-bottom: 30px;
+	
+}
+
+.tabela-info{
+	width: 450px;
+	padding: 10px;
+	margin-bottom: 30px;
+
+}
+.text-info,p{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.2rem;
+	margin-bottom: 30px;
+}
+
+ul{
+	padding: 0;
+	margin: 0 0 0 250px;
+	list-style: none;
+}
+
+li{
+	float: left;
+
+}
+
+.logo img{
+	position: absolute;
+	margin-top: 10px;
+	margin-left: 8px;
+}
+
+nav a{
+	width: 120px;
+	display: block;
+	padding: 40px 30px;
+	text-decoration: none;
+	font-family: 'Open Sans', sans-serif;
+	color: gray;
+	text-align: right;
+}
+
+nav a:hover{
+	background-color: #FFCCBC;
+	transition: 0.5s;
+	text-transform: uppercase;
+}
+
+
+/*fotter*/
+
+footer{
+  margin-top: px;
+  background-color: #566a80;
+  padding:10px;
+
+}
+
+footer p,a{
+  font: 1.2rem 'Avenir', sans-serif;
+  color:#E91E63;
+  text-decoration: none;
+  margin-top: 10px;
+  text-align: center;
+  color: #fff;
+}
+
+footer p{
+    font-size: 1.5rem;
+    background-color: #566a80 ;
+}
+
