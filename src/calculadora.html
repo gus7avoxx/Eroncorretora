@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <title>Eron</title>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+    <link rel="stylesheet" type="text/css" href="nova pasta.css" />
+       
+    </head>
+    <body>
+   <div class="logo"><a href="index.html"><img src="img/logo.png"></a>  
+    </div>
+    <nav>
+        <ul>
+            <li><a href="index.html#pag-serviços">Serviços</a></li>
+            <li><a href="anuncieseuimovel.html">Anuncie seu imovel</a></li>
+            <li><a href="index.html#pag-lançamento">Lançamento</a></li>
+            <li><a href="#">Calculadora</a></li>
+            <li><a href="faleconosco.html">Fale conosco</a></li>
+            <li><a href="Minha Conta.html">Minha conta</a></li>
+
+
+        </ul>
+    </nav>
+
+   
+        <div class="container" style="width: 500px; margin: 0 auto;">
+            <img src="img/calculadora.svg" width="100%">
+            <h1>Calculadora</h1> 
+            <p>Calcule por quanto sairá as parcelas do seu mais novo imóvel, em nossa calculadora fácil.</p>
+            <form id="form">
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col">
+                            <label for="imovel">Valor do imóvel:</label>
+                            <input type="text" name="imovel" id="imovel" class="form-control">
+                        </div>
+                    </div>
+                   <div class="row">
+                        <div class="col">
+                            <label for="entrada">Valor da entrada:</label>
+                            <input type="text" name="entrada" id="entrada" class="form-control">
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col">
+                            <label for="parcela">Número de parcelas:</label>
+                            <input type="text" name="parcela" id="parcela" class="form-control">
+                        </div>
+                    </div>
+                </div>
+                    <button type="submit" class="btn btn-primary" id="btn">Calcular</button>                
+            </form>
+
+            <br>
+            
+
+            <div id="resultado" class="h3" style="margin-top: 20px;"></div>
+        </div>
+
+
+
+        <!-- Footer -->
+    <footer>
+    <p>© 2019 Copyright - Programador <a href="https://www.instagram.com/lubiluh/" target="_blank"> Maria Luisa </a> | <a href="https://www.instagram.com/gus7avo.r/" target="_blank" >Gustavo</a> |<a href="https://www.instagram.com/thiagoks/" target="_blank" > Thiago</a> </p>
+  </footer>
+
+        <script src="calculadora.js"></script>
+    </body>
+</html>

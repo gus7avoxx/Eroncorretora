@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+		<meta charset="utf-8" />
+		<meta name="autor" content="" />
+		<meta name="keywords" content="" />
+		<meta name="descripition" content="" />
+		<link rel="stylesheet" type="text/css" href="stylefaleconosco.css"/>	
+</head>
+<body>
+	<div class="logo"><a href="index.html"><img src="img/logo.png"></a>	
+	</div>
+	<nav>
+		<ul>
+			<li><a href="index.html#pag-serviços">Serviços</a></li>
+			<li><a href="anuncieseuimovel.html">Anuncie seu imovel</a></li>
+			<li><a href="index.html#pag-lançamento">Lançamento</a></li>
+			<li><a href="Calculadora.html">Calculadora</a></li>
+			<li><a href="faleconosco.html">Fale conosco</a></li>
+			<li><a href="Minha Conta.html">Minha conta</a></li>
+
+
+		</ul>
+	</nav>
+
+	<br>
+	<br>
+	<br>
+	<br>
+
+	<section id="cadastro">
+		<form>
+			<h2>Para entrar em contato,informe os dados abaixo: </h2>
+			<label for="tipo_imovel"><strong>Assunto:</strong></label>
+				<select id="assunto" name="assunto" required>
+					<option value="compra">Comprar/Alugar um imóvel</option>
+					<option value="boleto">Dúvidas sobre o boleto</option>
+					<option value="contrato">Dúvidas sobre o contrato</option>
+					<option value="pagamentos">Dúvidas sobre pagamento</option>
+					<option value="infos">Informação sobre o empreendimento</option>
+					<option value="notas">Notas fiscais</option>
+					<option value="sugestões">Sugestões</option>
+					<option value="assuntos">Outros assuntos</option>
+				</select>	
+			
+			<label for="nome_completo"><strong>Nome:</strong></label><br/>
+			<input id="nome_completo" type="text" name="nome_completo"  placeholder="Digite Seu Nome Completo" required />
+
+			<label for="cpf"><strong>CPF:</strong></label>
+            <input type="text" name="cpf" id="cpf" class="form-control">
+
+			<label for="email" ><strong>Email:</strong></label><br/>
+			<input id="email" type="email" name="email" placeholder="usuario@email.com" required>
+
+			<label for="telefone"><strong>Telefone:</strong></label><br/>
+			<input id="telefone" type="tel" name="telefone" placeholder="(99)99999-9999" pattern="^\(?\d{2}\)\d{5}[-\s]\d{4}.*?$" required>
+
+            <label for="tipo_imovel"><strong>Prefiro ser contatado por:</strong></label>
+				<select id="assunto" name="assunto" required>
+					<option value="email">Email</option>
+					<option value="telefone">Telefone</option>
+					<option value="indiferente">Indiferente</option>
+				</select>
+
+			<label for="msg"><strong>Mensagem</strong></label><br/>
+			<textarea id="msg" cols="100" rows="5"></textarea>
+
+			<div id="botoesform">
+			<input type="submit" name="btn_fazerparte" value="Enviar" />
+		</form>
+	</section>
+
+
+
+	<!-- Footer -->
+    <footer>
+    	<p>© 2019 Copyright - Programador <a href="https://www.instagram.com/lubiluh/" target="_blank"> Maria Luisa </a> | <a href="https://www.instagram.com/gus7avo.r/" target="_blank" >Gustavo</a> |<a href="https://www.instagram.com/thiagoks/" target="_blank" > Thiago</a> </p>
+  </footer>
+</body>
+</html>

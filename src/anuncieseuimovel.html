@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8" />
+		<meta name="autor" content="" />
+		<meta name="keywords" content="" />
+		<meta name="descripition" content="" />
+		<link rel="stylesheet" type="text/css" href="estilo.css"/>
+</head>
+
+<body>
+
+	<div class="logo"><a href="index.html"><img src="img/logo.png"></a>	
+	</div>
+	<nav>
+		<ul>
+			<li><a href="index.html#Pag-serviços">Serviços</a></li>
+			<li><a href="#">Anuncie seu imovel</a></li>
+			<li><a href="index.html#pag-lançamento">Lançamento</a></li>
+			<li><a href="calculadora.html">Calculadora</a></li>
+			<li><a href="pagfaleconosco.html">Fale conosco</a></li>
+			<li><a href="Minha conta.html"> Minha conta</a></li>
+
+
+		</ul>
+	</nav>
+
+	<section id="anuncie_seu_imovel">
+
+		<form name="" method="" action="" >
+			<h2>Sobre o anunciante</h2> 
+			<label for="nome_completo"><strong>Nome:</strong></label><br/>
+			<input id="nome_completo" type="text" name="nome_completo"  placeholder="Digite Seu Nome Completo" required />
+
+			<label for="email" ><strong>Email:</strong></label><br/>
+			<input id="email" type="email" name="email" placeholder="usuario@email.com" required>
+
+			<label for="telefone"><strong>Telefone:</strong></label><br/>
+			<input id="telefone" type="tel" name="telefone" placeholder="(99)99999-9999" pattern="^\(?\d{2}\)\d{5}[-\s]\d{4}.*?$" required>
+
+
+		<h2>Sobre o imóvel</h2>
+
+		<fieldset>
+			<input id="vender" type="radio" name="imóvel" value="vender"> <label for="vender">Vender</label><br/>
+			<input id="alugar" type="radio" name="imóvel" value="alugar" required> <label for="alugar">Alugar</label>
+		</fieldset>
+
+
+
+			<label for="tipo_imovel"><strong>Tipo de imóvel:</strong></label>
+			<select id="tipo_imovel" name="tipo_imovel" required>
+				<option value="casa">Casa</option>
+				<option value="apartamento">Apartamento</option>
+				<option value="comercial">Comercial</option>
+				<option value="loteamento">Loteamento</option>
+				<option value="hotel">Hotel</option>
+				<option value="galpão">Galpão</option>
+				<option value="terreno">Terreno</option>
+				<option value="terrno_rural">Terreno rual</option>
+			</select>	
+
+			<div id="endereço_numero">
+				<div id="endereço">
+				<label for="msg"><strong>Endereço</strong></label><br/>
+				<input type="text" name="endereço" tipe="text" id="msg" cols="55" rows="2">
+			</div>
+
+			<div>
+				<label for="msg"><strong>Número</strong></label><br/>
+				<input type="text" name="numero" id="msg" cols="100" rows="2">
+			</div>
+			</div>
+
+			<div id="bairro_cidade_cep">
+				<div id="endereço">
+					<label for="msg"><strong>Bairro</strong></label><br/>
+					<input type="text" name="bairro" id="msg" cols="55" rows="2">
+				</div>
+
+				<div id="endereço">
+					<label for="msg"><strong>Cidade</strong></label><br/>
+					<input type="text" name="cidade" id="msg" cols="55" rows="2">
+				</div>
+
+				<div><
+					<label for="msg"><strong>CEP</strong></label><br/>
+					<input type="text" name="cep" id="msg" cols="55" rows="2">
+					
+				</div>
+			</div>
+
+				<a class="a-anuncie" href="http://www.buscacep.correios.com.br/sistemas/buscacep/" target="_blank"><strong>Não sei o meu CEP</strong></a>
+
+		<div id="botoesform">
+			<input type="submit" name="btn_fazerparte" value="Enviar" />
+		</div>
+		</form>
+	</section>
+	</section>
+
+	<br>
+	<br>
+	<br>
+	<br>
+
+	<footer>
+   		<p>© 2019 Copyright - Programador <a href="https://www.instagram.com/lubiluh/" target="_blank"> Maria Luisa </a> | <a href="https://www.instagram.com/gus7avo.r/" target="_blank" >Gustavo</a> |<a href="https://www.instagram.com/thiagoks/" target="_blank" > Thiago</a> </p>
+    </footer>
+
+</body>
+</html>
